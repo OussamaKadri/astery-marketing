@@ -10,8 +10,8 @@ function Lead() {
 <h1 className=' text-[32px] font-bold text-[#cfcfcf]  -rotate-3 '> كيف تضاعف مبيعاتك و تنمي شركتك الى الملايين في الشهر
 </h1>
 </div>
-<div className=' mt-8 -rotate-3 lg:w-[50%] w-[70%] '>
-<iframe className=' aspect-video w-full rounded-xl mb-8' src="https://www.youtube.com/embed/8cqiKjiGKOo?si=ub7TylHd50KhwTk9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div className=' mt-8 -rotate-3 flex flex-col items-center   lg:w-[50%] w-[70%] '>
+<iframe className=' aspect-video w-full rounded-xl mb-8 ml-5 md:ml-0 lg:ml-0' src="https://www.youtube.com/embed/8cqiKjiGKOo?si=ub7TylHd50KhwTk9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 < Link href="Lead_Magnet" className=' mt-8 bg-[#4b73f8] text-white lg:px-6 px-3  py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg IBM '>  احصل على خطتك التسويقية مجانا</Link>
   </div>
 

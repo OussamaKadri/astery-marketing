@@ -13,7 +13,7 @@ function OurWork() {
 
   {/* case studies */}
 
-  <div className=' w-full flex flex-col justify-between items-center mt-4 lg:flex-row h-[90%]   '>
+  <div className=' w-full flex flex-col justify-around items-center mt-4 lg:flex-row h-[90%]   '>
 
 
 

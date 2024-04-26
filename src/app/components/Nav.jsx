@@ -114,12 +114,12 @@ console.log(menu)
           
           <div>
   <ul className=' w-full h-[80vh]  flex flex-col items-center justify-evenly'>
-    <li><Link activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500}   className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline '  >الرئيسية</Link></li>
-    <li><Link  activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline '>من نحن</Link></li>
-    <li><Link activeClass="active"  to="Services" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline  '>الخدمات </Link></li>
-    <li><Link   to="OurWork" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-black font-extralighte  text-[32px] IBM  hover:text-[#1F53FF] hover:underline cursor-pointer'>أعمالنا</Link></li>
-    <li><Link activeClass="active"  to="Contact" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF]  hover:underline'>تواصل معنا</Link></li>
-    <li><Link activeClass="active"  to="LeadMagnet" spy={true}  smooth={true}   offset={50}  duration={500}  className=' text-[22px] px-3 py-3 border-2 border-solid rounded-lg border-[#1F53FF] text-[#1F53FF] '  whileHover={{color:"white" , backgroundColor:"#1F53FF"}} >
+    <li><Link activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500}  onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline '  >الرئيسية</Link></li>
+    <li><Link  activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline '>من نحن</Link></li>
+    <li><Link activeClass="active"  to="Services" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline  '>الخدمات </Link></li>
+    <li><Link   to="OurWork" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' no-underline text-black font-extralighte  text-[32px] IBM  hover:text-[#1F53FF] hover:underline cursor-pointer'>أعمالنا</Link></li>
+    <li><Link activeClass="active"  to="Contact" spy={true}  smooth={true}   offset={50}  duration={500}  onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF]  hover:underline'>تواصل معنا</Link></li>
+    <li><Link activeClass="active"  to="LeadMagnet" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' text-[22px] px-3 py-3 border-2 border-solid rounded-lg border-[#1F53FF] text-[#1F53FF] '  whileHover={{color:"white" , backgroundColor:"#1F53FF"}} >
   احصل على خطتك التسويقية مجانا
   </Link></li>
   </ul>

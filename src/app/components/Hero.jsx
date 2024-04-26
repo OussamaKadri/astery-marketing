@@ -35,7 +35,7 @@ return () => {
 <motion.section className=' w-full h-[150vh] flex flex-col  lg:h-[110vh] md:h-[110vh]  lg:flex-row md:flex-row '  >
 
 {/* content sections */}
-<section className=' w-full h-[105vh] text-center pt-16 lg:text-start lg:pl-44 gap-24 bg-[#1C1A27] px-4 lg:h-full md:h-full md:w-[60%] lg:w-[60%]  ' >
+<section className=' w-full h-[90vh] text-center pt-16 lg:text-start lg:pl-44 gap-24 bg-[#1C1A27] px-4 lg:h-full md:h-full md:w-[60%] lg:w-[60%]  ' >
 
   {/*  writer and ketba */}
 <h3 className=" text-[#1F53FF] font-light tracking-wider mb-5 g ">
@@ -88,7 +88,8 @@ return () => {
   {/*  the buttone */}
   <div className=' w-full pt-6 flex justify-center lg:hidden '>
     <button className=' px-3 py-2 bg-[#1f53ffbf] IBM  hover:bg-[#1f53ffc7] rounded-lg '>
-احصل على خطتك التسويقية 
+      <Link href="Lead_Magnet">  احصل على خطتك التسويقية 
+   </Link>
    
     </button>
   </div>
@@ -105,7 +106,7 @@ return () => {
 
 
 {/* the vidio sections */}
-< section className=' w-full h-[45vh] bg-[#33363C] lg:h-full lg:w-[40%] md:h-full md:w-[40%] flex flex-col items-center justify-center  '>
+< section className=' w-full h-[50vh] bg-[#33363C] lg:h-full lg:w-[40%] md:h-full md:w-[40%] flex flex-col items-center justify-center  '>
   <img src="/Astra.png" alt="logo" />
   < Link href="/How" className=' mt-8 bg-[#4b73f8] text-white lg:px-6 px-3  py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg IBM '> ابدء التطبيق </Link>
 
@@ -128,8 +129,8 @@ return () => {
 
 <div className=" flex justify-end items-center py-2 px-2" onClick={() => {setdisplay('none')}}><Image src="/close.png" width={15} height={15} alt="croos png" className=" hover:bg-slate-300"/> </div>
 
-<div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5"> <Link href='How'><p>ابدء التطبيق  </p></Link> 
-<button className='bg-[#4b73f8] text-white px-3 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg '>Yes!</button>
+<div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5">  ابدء التطبيق  
+<button className='bg-[#4b73f8] text-white px-3 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg '><Link href='How'><p>Yes </p></Link>  </button>
 </div>
 
 
