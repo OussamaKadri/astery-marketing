@@ -128,7 +128,7 @@ return () => {
 
 <div className=" flex justify-end items-center py-2 px-2" onClick={() => {setdisplay('none')}}><Image src="/close.png" width={15} height={15} alt="croos png" className=" hover:bg-slate-300"/> </div>
 
-<div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5"> <Link href='/How'><p>ابدء التطبيق  </p></Link> 
+<div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5"> <Link href='How'><p>ابدء التطبيق  </p></Link> 
 <button className='bg-[#4b73f8] text-white px-3 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg '>Yes!</button>
 </div>
 

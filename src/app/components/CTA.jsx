@@ -43,7 +43,7 @@ function CTA() {
             <motion.h1 className=' text-[40px] font-extrabold g text-slate-900 ' whileInView={{y:0 , opacity:1}} initial={{y:100 , opacity:0}} transition={{duration:0.8}}>ماذا تنتظر لتحقيق أهدافك ؟</motion.h1>
             <motion.p className=' IBM font-light text-slate-500 text-[15px] mb-8 '  whileInView={{y:0 , opacity:1}} initial={{y:100 , opacity:0}} transition={{duration:0.8}} >   تواصل معنا للحصول على أول إجتماع    </motion.p>
 
-            < Link href="Lead_Magnet" className=' mt-8 bg-[#4b73f8] text-white px-6 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg IBM '> للمزيد من المعلومات</Link>
+            < Link href="How" className=' mt-8 bg-[#4b73f8] text-white px-6 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg IBM '> للمزيد من المعلومات</Link>
 
         </div>
 
