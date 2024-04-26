@@ -3,7 +3,7 @@
   "/Case_studies01/page": "app/Case_studies01/page.js",
   "/Course/page": "app/Course/page.js",
   "/How/page": "app/How/page.js",
-  "/Lead_Magnet/page": "app/Lead_Magnet/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/Lead_Magnet/page": "app/Lead_Magnet/page.js",
   "/page": "app/page.js"
 }

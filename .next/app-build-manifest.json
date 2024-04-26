@@ -27,37 +27,37 @@
       "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
       "static/chunks/23-79685b29f9c71c03.js",
       "static/chunks/main-app-e7c89575c66280be.js",
-      "static/chunks/479-ed5a351c2b27b077.js",
+      "static/chunks/246-ab65502a5feb9ed5.js",
       "static/chunks/648-c8da24e66b4c4619.js",
-      "static/chunks/app/Course/page-6e5675e2f97a6b05.js"
+      "static/chunks/app/Course/page-99131f7a13dee702.js"
     ],
     "/How/page": [
       "static/chunks/webpack-c46222d6fb4807ab.js",
       "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
       "static/chunks/23-79685b29f9c71c03.js",
       "static/chunks/main-app-e7c89575c66280be.js",
-      "static/chunks/479-ed5a351c2b27b077.js",
-      "static/chunks/app/How/page-00ceb88ed6c55300.js"
+      "static/chunks/246-ab65502a5feb9ed5.js",
+      "static/chunks/app/How/page-d6d9731a823a6299.js"
     ],
     "/Lead_Magnet/page": [
       "static/chunks/webpack-c46222d6fb4807ab.js",
       "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
       "static/chunks/23-79685b29f9c71c03.js",
       "static/chunks/main-app-e7c89575c66280be.js",
-      "static/chunks/479-ed5a351c2b27b077.js",
+      "static/chunks/246-ab65502a5feb9ed5.js",
       "static/chunks/648-c8da24e66b4c4619.js",
-      "static/chunks/108-b6aa501121c57abc.js",
-      "static/chunks/app/Lead_Magnet/page-f01123f5be37fa00.js"
+      "static/chunks/116-aaa4b10cf588cd20.js",
+      "static/chunks/app/Lead_Magnet/page-387e1bda9c6ea492.js"
     ],
     "/page": [
       "static/chunks/webpack-c46222d6fb4807ab.js",
       "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
       "static/chunks/23-79685b29f9c71c03.js",
       "static/chunks/main-app-e7c89575c66280be.js",
-      "static/chunks/479-ed5a351c2b27b077.js",
+      "static/chunks/246-ab65502a5feb9ed5.js",
       "static/chunks/648-c8da24e66b4c4619.js",
       "static/chunks/861-b61c02cc1511cd3e.js",
-      "static/chunks/app/page-d68f26d48361d633.js"
+      "static/chunks/app/page-19736a11706a5f89.js"
     ]
   }
 }
