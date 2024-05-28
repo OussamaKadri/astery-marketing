@@ -40,10 +40,10 @@ function CTA() {
         {/* the copywrite section  */}
 
         <div className=' w-full h-[30%]  text-center pt-24 '>
-            <motion.h1 className=' text-[40px] font-extrabold g text-slate-900 ' whileInView={{y:0 , opacity:1}} initial={{y:100 , opacity:0}} transition={{duration:0.8}}>ماذا تنتظر لتحقيق أهدافك ؟</motion.h1>
-            <motion.p className=' IBM font-light text-slate-500 text-[15px] mb-8 '  whileInView={{y:0 , opacity:1}} initial={{y:100 , opacity:0}} transition={{duration:0.8}} >   تواصل معنا للحصول على أول إجتماع    </motion.p>
+            <motion.h1 className=' text-[30px] font-extrabold Bur text-slate-900 ' whileInView={{y:0 , opacity:1}} initial={{y:100 , opacity:0}} transition={{duration:0.8}}>What Your are waiting to Achive Your Goals ?</motion.h1>
+            <motion.p className=' red font-light text-slate-500 text-[15px] mb-8 '  whileInView={{y:0 , opacity:1}} initial={{y:100 , opacity:0}} transition={{duration:0.8}} > Contact us for your first meeting </motion.p>
 
-            < Link href="How" className=' mt-8 bg-[#4b73f8] text-white px-6 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg IBM '> للمزيد من المعلومات</Link>
+            < Link href="How" className=' mt-8 bg-[#4b73f8] text-white px-6 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg red  '> For More information </Link>
 
         </div>
 
@@ -64,31 +64,31 @@ function CTA() {
             
               </p><div>
                 <label className="block mb-2 text-sm font-medium text-gray-900">
-                الإسم الكامل
+                Full Name 
                 </label>
-                <input placeholder="الإسم الكامل" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"  type="text"  name='Name'   />
+                <input placeholder="Full Name " className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5"  type="text"  name='Name'   />
               </div>
               <div>
                 <label className="block mb-2 text-sm font-medium text-gray-900">
-                البريد الإلكتروني
+              email 
                 </label>
-                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="البريد الإلكتروني"  type="email"  name='email'   />
+                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder="email "  type="email"  name='email'   />
               </div>
               <div className=' flex gap-3'>
 
               
 
-                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder=" رقم الهاتف"  type="number" name='phone'/>            
+                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder=" Phone Number "  type="number" name='phone'/>            
 
             
-                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder=" نوع الشركة "  type="text" name='buisniss'/>            
+                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder=" Company Name "  type="text" name='buisniss'/>            
                  </div>
                  <div>
 
                 <label className="block mb-2 text-sm font-medium text-gray-900">
-                الرسالة أو نوع الخدمة 
+                Message
                 </label>
-                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder=" الرسالة أو نوع الخدمة "  type="text" name='message'/>            
+                <input className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5" placeholder=" Message Or Service 'optinal' "  type="text" name='message'/>            
                  </div>
     
   { send ? 

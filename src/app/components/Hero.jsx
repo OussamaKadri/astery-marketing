@@ -128,7 +128,7 @@ Perfect results</h3>
 
 <div className=" flex justify-end items-center py-2 px-2" onClick={() => {setdisplay('none')}}><Image src="/close.png" width={15} height={15} alt="croos png" className=" hover:bg-slate-300"/> </div>
 
-<div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5">  ابدء التطبيق  
+<div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5">  Start Application  
 <button className='bg-[#4b73f8] text-white px-3 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg '><Link href='How'><p>Yes </p></Link>  </button>
 </div>
 

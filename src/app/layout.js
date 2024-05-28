@@ -1,5 +1,6 @@
 import { Inter , IBM_Plex_Sans  ,   Red_Hat_Display , Sevillana , Bruno_Ace_SC } from "next/font/google";
 import "./globals.css";
+import { motion } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
