@@ -5,9 +5,12 @@ import CTA from '../components/CTA'
 
 function How() {
   return (
-    <div className=' w-[100vw] flex flex-col items-center h-[200vh] pt-10 bg-slate-200 overflow-x-hidden '>
+    <div className=' w-[100vw] flex flex-col items-center h-[200vh]  bg-slate-200 overflow-x-hidden '>
    {/*  How we Can work  */}
-<motion.h1 className='text-slate-900 red text-[40px] '  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.65}}> How we Can Start Work ?</motion.h1>
+   
+<img src="/Astra.png" alt="" className=' h-12 ' />
+  
+<motion.h1 className='text-slate-900 red text-[40px] mt-10 '  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.65}}> How we Can Start Work ?</motion.h1>
 <motion.p className=' text-slate-900 red lg:w-[60%] w-[80%]  text-center pt-4 ' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 1}} > First, I want to thank you for choosing us and be sure that we are the best company that can help you achieve your sales goals  </motion.p>
 
 
