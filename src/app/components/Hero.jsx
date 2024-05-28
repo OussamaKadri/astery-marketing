@@ -39,9 +39,9 @@ return () => {
 
   {/*  writer and ketba */}
 <h3 className=" text-[#1F53FF] font-light tracking-wider mb-5 g ">
-النتائج المثالية</h3>
-<motion.h1 className=" text-slate-100 text-[45px] font-extrabold lg:w-[60%]  mb-5 IBM " whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.33}}>شريكك المثالي لجعل علامتك التجارية تتألق وتبرز</motion.h1>
-<motion.p className=" text-slate-200 lg:text-slate-500   mb-5 IBM " whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.53}}>حن خبراء في مجال التسويق الإلكتروني وزيادة المبيعات من خلال إنشاء إستراتيجيات تسويقية مخصصة وفعالة .</motion.p>
+Perfect results</h3>
+<motion.h1 className=" text-slate-100 text-[40px] font-extrabold lg:w-[60%]  mb-5 Bur" whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.33}}>Your perfect partner to make your brand best and stand out </motion.h1>
+<motion.p className=" text-slate-200 lg:text-slate-500   mb-5 red " whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.53}}>We are experts in the Digital Marketing  and increasing sales by creating customized and effective marketing strategies.</motion.p>
 <div>
 
   {/* media buying   */}
@@ -51,12 +51,12 @@ return () => {
 
     <div className=" w-full h-[45%] gap-2  flex  items-center " >
   <div className=" bg-white h-16 w-16 rounded-full flex justify-center items-center  border-solid border-[2px] border-white"> <Image src="/meta.png" width={30} height={30} alt="meta "/></div>
-  <p  className=" font-semibold text-white text-[11px] red ">Meta <br /> <span className=" font-extralight g  mt-2  text-slate-300 "> شريك النجاح </span> </p>
+  <p  className=" font-semibold text-white text-[11px] red ">Meta <br /> <span className=" font-extralight g  mt-2  text-slate-300 "> Success Partner </span> </p>
 </div>
 
 <div  className="w-full h-[45%] gap-2  flex  items-center">
 <div className=" bg-white h-16 w-16 rounded-full flex justify-center items-center  border-solid border-[2px] border-white"> <Image src="/snapchat.png" width={30} height={30} alt="meta "/></div>
-<p  className=" font-semibold text-white text-[11px] red"> Snapchat <br /> <span className=" font-extralight g mt-2  text-slate-300  "> شريك النجاح</span></p>
+<p  className=" font-semibold text-white text-[11px] red"> Snapchat <br /> <span className=" font-extralight g mt-2  text-slate-300  "> Success Partner</span></p>
 </div>
 
 
@@ -72,12 +72,12 @@ return () => {
 
     <div className=" w-full h-[45%] gap-2  flex  items-center " >
   <div className=" bg-white h-16 w-16 rounded-full flex justify-center items-center  border-solid border-[2px] border-white"> <Image src="/tik-tok.png" width={30} height={30} alt="meta "/></div>
-  <p  className=" font-semibold text-white text-[11px] red"> Tik Tok <br /> <span className=" font-extralight g mt-2 ">شريك النجاح   </span></p>
+  <p  className=" font-semibold text-white text-[11px] red"> Tik Tok <br /> <span className=" font-extralight g mt-2 ">Success Partner</span></p>
 </div>
 
 <div className=" w-full h-[45%] gap-2  flex  items-center " >
   <div className=" bg-white h-16 w-16 rounded-full flex justify-center items-center  border-solid border-[2px] border-white"> <Image src="/search (1).png" width={30} height={30} alt="meta "/></div>
-  <p  className=" font-semibold text-white text-[11px] red"> Google <br /> <span className=" font-extralight g mt-2 ">شريك النجاح   </span></p>
+  <p  className=" font-semibold text-white text-[11px] red"> Google <br /> <span className=" font-extralight g mt-2 "> Success Partner </span></p>
 </div>
 
 
@@ -88,7 +88,7 @@ return () => {
   {/*  the buttone */}
   <div className=' w-full pt-6 flex justify-center lg:hidden '>
     <button className=' px-3 py-2 bg-[#1f53ffbf] IBM  hover:bg-[#1f53ffc7] rounded-lg '>
-      <Link href="Lead_Magnet">  احصل على خطتك التسويقية 
+      <Link href="Lead_Magnet"> Get your first free consultation
    </Link>
    
     </button>
@@ -99,7 +99,6 @@ return () => {
 </div>
 
 
-
 </section>
 
 
@@ -108,7 +107,7 @@ return () => {
 {/* the vidio sections */}
 < section className=' w-full h-[50vh] bg-[#33363C] lg:h-full lg:w-[40%] md:h-full md:w-[40%] flex flex-col items-center justify-center  '>
   <img src="/Astra.png" alt="logo" />
-  < Link href="/How" className=' mt-8 bg-[#4b73f8] text-white lg:px-6 px-3  py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg IBM '> ابدء التطبيق </Link>
+  < Link href="/How" className=' mt-8 bg-[#4b73f8] text-white lg:px-6 px-3  py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg Bur '> Up To 11 </Link>
 
 </section>
 

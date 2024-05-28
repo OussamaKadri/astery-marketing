@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.IBM {
-    font-family: var(--font-IBM_Plex_Sans_Arabic);
+.Bur {
+    font-family: var(--font-Bruno_Ace_SC);
 }
 .g {
- font-family: var(--font-Gulzar);
+ font-family: var(--font-Sevillana);
 }
 .red {
     font-family: var(--font-Red_Hat_Display);

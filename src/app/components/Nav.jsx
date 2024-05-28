@@ -114,13 +114,13 @@ console.log(menu)
           
           <div>
   <ul className=' w-full h-[80vh]  flex flex-col items-center justify-evenly'>
-    <li><Link activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500}  onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline '  >الرئيسية</Link></li>
-    <li><Link  activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline '>من نحن</Link></li>
-    <li><Link activeClass="active"  to="Services" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF] hover:underline  '>الخدمات </Link></li>
-    <li><Link   to="OurWork" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' no-underline text-black font-extralighte  text-[32px] IBM  hover:text-[#1F53FF] hover:underline cursor-pointer'>أعمالنا</Link></li>
-    <li><Link activeClass="active"  to="Contact" spy={true}  smooth={true}   offset={50}  duration={500}  onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] IBM hover:text-[#1F53FF]  hover:underline'>تواصل معنا</Link></li>
+    <li><Link activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500}  onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] red hover:text-[#1F53FF] hover:underline '  >Home</Link></li>
+    <li><Link  activeClass="active"  to="Main" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] red hover:text-[#1F53FF] hover:underline '>About</Link></li>
+    <li><Link activeClass="active"  to="Services" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' no-underline text-black font-extralighte  text-[32px] red hover:text-[#1F53FF] hover:underline  '>Services</Link></li>
+    <li><Link   to="OurWork" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' no-underline text-black font-extralighte  text-[32px] red  hover:text-[#1F53FF] hover:underline cursor-pointer'>Our Work </Link></li>
+    <li><Link activeClass="active"  to="Contact" spy={true}  smooth={true}   offset={50}  duration={500}  onClick={() => {setmenu(false)}} className=' no-underline text-black font-extralighte  text-[32px] red hover:text-[#1F53FF]  hover:underline'>Contact</Link></li>
     <li><Link activeClass="active"  to="LeadMagnet" spy={true}  smooth={true}   offset={50}  duration={500} onClick={() => {setmenu(false)}}  className=' text-[22px] px-3 py-3 border-2 border-solid rounded-lg border-[#1F53FF] text-[#1F53FF] '  whileHover={{color:"white" , backgroundColor:"#1F53FF"}} >
-  احصل على خطتك التسويقية مجانا
+    Get your first free consultation
   </Link></li>
   </ul>
   
@@ -143,13 +143,13 @@ console.log(menu)
 
         <div className=' hidden lg:block'>
       <ul className='  flex gap-28'>
-    <li><button><Link   to="Main" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF] hover:underline '  >الرئيسية</Link> </button></li>
-    <li><button><Link   to="Main" spy={true}  smooth={true}   offset={50}  duration={500} className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF] hover:underline '>من نحن</Link></button></li>
-    <li><button><Link   to="Services" spy={true}  smooth={true}   offset={50}  duration={500} className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF] hover:underline  '>الخدمات </Link></button></li>
-    <li><button><Link   to="OurWork" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-white font-extralighte text-[12px]  hover:text-[#1F53FF] hover:underline'>أعمالنا</Link></button></li>
-    <li><button><Link   to="Contact" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF]  hover:underline'>تواصل معنا</Link></button></li>
-    <li><button><Link   to="LeadMagnet" spy={true}  smooth={true}   offset={50}  duration={500}  className=' text-[12px] px-6 py-1 border-2 border-solid rounded-lg border-[#1F53FF] text-[#1F53FF]' whileHover={{color:"white" , backgroundColor:"#1F53FF"}} >
-  احصل على خطتك التسويقية مجانا
+    <li><button><Link   to="Main" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF] hover:underline red '  >Home</Link> </button></li>
+    <li><button><Link   to="Main" spy={true}  smooth={true}   offset={50}  duration={500} className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF] hover:underline red '>About </Link></button></li>
+    <li><button><Link   to="Services" spy={true}  smooth={true}   offset={50}  duration={500} className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF] hover:underline red   '>Services</Link></button></li>
+    <li><button><Link   to="OurWork" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-white font-extralighte text-[12px]  hover:text-[#1F53FF] hover:underline red '>Our Work</Link></button></li>
+    <li><button><Link   to="Contact" spy={true}  smooth={true}   offset={50}  duration={500}  className=' no-underline text-white font-extralighte text-[12px] hover:text-[#1F53FF]  hover:underline red '>Contact</Link></button></li>
+    <li><button><Link   to="LeadMagnet" spy={true}  smooth={true}   offset={50}  duration={500}  className=' text-[12px] px-6 py-1 border-2 border-solid rounded-lg border-[#1F53FF] text-[#1F53FF] red ' whileHover={{color:"white" , backgroundColor:"#1F53FF"}} >
+    Get your first free consultation
   </Link></button></li>
   </ul> </div>
         

@@ -1,13 +1,13 @@
-import { Inter , IBM_Plex_Sans_Arabic  , Gulzar , Red_Hat_Display} from "next/font/google";
+import { Inter , IBM_Plex_Sans  ,   Red_Hat_Display , Sevillana , Bruno_Ace_SC } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 
-const gulzar = Gulzar({
-  subsets:['arabic'],
+const sevillana = Sevillana({
+  subsets:['latin'],
   weight : ['400'],
-  variable : '--font-Gulzar'
+  variable : '--font-Sevillana'
 })
 
 
@@ -18,10 +18,10 @@ const Red = Red_Hat_Display({
 })
 
 
-const IBM = IBM_Plex_Sans_Arabic({
-  subsets : ['arabic'],
-  weight : [ '100' , '200' , '300' , '400' , '500' , '600' , '700'],
- variable : '--font-IBM_Plex_Sans_Arabic'
+const Bur = Bruno_Ace_SC({
+  subsets : ['latin'],
+weight : ['400'],
+ variable : '--font-Bruno_Ace_SC'
 })
 
 
@@ -35,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${IBM.variable} ${gulzar.variable} ${Red.variable}`}>{children}</body>
+      <body className={`${Bur.variable} ${sevillana.variable} ${Red.variable}`}>{children}</body>
     </html>
   );
 }

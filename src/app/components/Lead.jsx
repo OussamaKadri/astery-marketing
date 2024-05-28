@@ -5,9 +5,10 @@ import Link from 'next/link';
 function Lead() {
   return (
     <div className=' w-full h-[65vh] bg-[#1C1A27] rotate-3 scale-125  mt-20 lg:mt-1 text-center  py-2 flex flex-col items-center' id='LeadMagnet'>
-<h3 className=' text-[#1F53FF] g font-light text-[18px] -rotate-3'>خطتنا</h3>
+<h3 className=' text-[#1F53FF] g font-light text-[18px] -rotate-3'> Our Plan </h3>
 <div className='w-[50%] py-2'>
-<h1 className=' text-[32px] font-bold text-[#cfcfcf]  -rotate-3 '> كيف تضاعف مبيعاتك و تنمي شركتك الى الملايين في الشهر
+<h1 className=' text-[32px] font-bold text-[#cfcfcf]  -rotate-3 Bur  '>
+How to double your sales and grow your company to millions a month 
 </h1>
 </div>
 <div className=' mt-8 -rotate-3 flex flex-col items-center   lg:w-[50%] w-[70%] '>
