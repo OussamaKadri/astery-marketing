@@ -21,7 +21,7 @@ function page() {
 
 </section>
 
-<section className='  w-full lg:h-[130vh] h-[200vh] ' >
+<section className='  w-full lg:h-[130vh] h-[150vh] ' >
 <Page02/>
 
 </section>
@@ -34,12 +34,12 @@ function page() {
 
 </section>
 
-<section className=' bg-slate-200 w-full h-[145vh] lg:h-[75vh] ' >
+<section className=' bg-slate-200 w-full h-[80vh] lg:h-[75vh] ' >
   <OurWork/>
   
 </section>
 
-<section className=' w-full h-[150vh] flex flex-col items-center  ' >
+<section className=' w-full h-[130vh] flex flex-col items-center  ' >
 <CTA/>
 </section>
 

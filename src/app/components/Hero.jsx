@@ -88,7 +88,7 @@ Perfect results</h3>
   {/*  the buttone */}
   <div className=' w-full pt-6 flex justify-center lg:hidden '>
     <button className=' px-3 py-2 bg-[#1f53ffbf] IBM  hover:bg-[#1f53ffc7] rounded-lg '>
-      <Link href="Lead_Magnet"> Get your first free consultation
+      <Link href="/Lead_Magnet"> Get your first free consultation
    </Link>
    
     </button>
@@ -106,7 +106,7 @@ Perfect results</h3>
 
 {/* the vidio sections */}
 < section className=' w-full h-[50vh] bg-[#33363C] lg:h-full lg:w-[40%] md:h-full md:w-[40%] flex flex-col items-center justify-center  '>
-  <img src="/Astra.png" alt="logo" />
+  <img src="/Astra02.png" alt="logo" className=' mt-10' />
   < Link href="/How" className=' mt-8 bg-[#4b73f8] text-white lg:px-6 px-3  py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg Bur '> Up To 11 </Link>
 
 </section>
@@ -129,7 +129,7 @@ Perfect results</h3>
 <div className=" flex justify-end items-center py-2 px-2" onClick={() => {setdisplay('none')}}><Image src="/close.png" width={15} height={15} alt="croos png" className=" hover:bg-slate-300"/> </div>
 
 <div className=" px-4 py-2 text-center font-light text-slate-300 rounded-2xl bg-[#33363C] flex flex-col gap-5">  Start Application  
-<button className='bg-[#4b73f8] text-white px-3 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg '><Link href='How'><p>Yes </p></Link>  </button>
+<button className='bg-[#4b73f8] text-white px-3 py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg '><Link href='/How'><p>Yes </p></Link>  </button>
 </div>
 
 

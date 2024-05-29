@@ -13,7 +13,7 @@ Our Work
 
   {/* case studies */}
 
-  <div className=' w-full flex flex-col justify-around  mt-4 lg:flex-row h-[90%]   '>
+  <div className=' w-full flex flex-col justify-center items-center mt-4 lg:flex-row h-[90%]   '>
 
 
 

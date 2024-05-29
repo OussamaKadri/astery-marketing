@@ -19,7 +19,7 @@ function CTA() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_aym94ss', 'template_gn0vmss', FormRef.current, {
+      .sendForm('service_0xu5fvy', 'template_gn0vmss', FormRef.current, {
         publicKey: 'Xp5RYw49Whi7bcouW',
       })
       .then(
@@ -51,7 +51,7 @@ function CTA() {
             {/*  contact section */}
 
 
-        <section className=' w-full h-[70%] bg-[#33363C] flex-col flex lg:flex-row lg:items-center  ' > 
+        <section className=' w-full h-[70%] bg-[#33363C] flex-col flex items-center lg:flex-row lg:items-center  ' > 
 
             {/* form */}
             <form  className='  w-[90%] lg:w-[65%]  '  autoComplete='off' ref={FormRef} onSubmit={sendEmail} >
@@ -92,7 +92,7 @@ function CTA() {
                  </div>
     
   { send ? 
-  <motion.div className=' text-green-600 IBM text-[17px] ' animate={{ x : 0 }} initial={{x:-200}} transition={{ duration:1}}  > Sucsses ! </motion.div> 
+  <motion.div className=' text-green-600 IBM text-[17px] ' animate={{ x : 0 }} initial={{x:-200}} transition={{ duration:1}}  > Thanks , We will Call You Later  </motion.div> 
   : 
   <div></div>
   }
@@ -110,34 +110,34 @@ function CTA() {
 
       {/* social Media Contact  */}
 
-<section className='lg:w-[30%] lg:h-[80%]  '> 
+<section className='lg:w-[30%] lg:h-[80%] w-full  '> 
 
 
 
 <div className=' w-full h-[25%] border-b-2 border-white flex items-center justify-between px-4 '>
-    <Link href="/"><img src="/whatsapp.png" alt="whatsappa png" className=' w-4 lg:w-9 ' /></Link>
-    <Link href="/" className=' IBM text-[#1f53ffea] hover:underline '>Whatsapp</Link>
+    <a herf='https://heylink.me/oussama_446'><img src="/whatsapp.png" alt="whatsappa png" className=' w-6 lg:w-9 ' /></a>
+    <a herf='https://heylink.me/oussama_446' className=' IBM text-[#1f53ffea] hover:underline '>Whatsapp</a>
 </div>
 
 
 
 <div className=' w-full h-[25%] border-b-2 border-white flex items-center justify-between px-4 '>
-    <Link href="/"><img src="/instagram.png" alt="" className=' w-4 lg:w-9 ' /></Link> 
-    <Link href="/" className=' IBM text-[#1f53ffea]  hover:underline'>Instagram</Link>
+    <a herf='https://heylink.me/oussama_446'><img src="/instagram.png" alt="" className=' w-6 lg:w-9 ' /></a> 
+    <a herf='https://heylink.me/oussama_446' className=' IBM text-[#1f53ffea]  hover:underline'>Instagram</a>
 </div>
 
 
 
 <div className=' w-full h-[25%] border-b-2 border-white flex items-center justify-between px-4 '>
-    <Link href="/"><img src="/twitter.png" alt="" className=' w-4 lg:w-9 ' /></Link>
-    <Link href="/" className=' IBM text-[#1f53ffea]  hover:underline'>Twitter</Link>
+    <a herf='https://heylink.me/oussama_446'><img src="/twitter.png" alt="" className=' w-6 lg:w-9 ' /></a>
+    <a herf='https://heylink.me/oussama_446' className=' IBM text-[#1f53ffea]  hover:underline'>Twitter</a>
 </div>
 
 
 
 <div className=' w-full h-[25%] border-b-2 border-white flex items-center justify-between px-4 '>
-    <Link href="/"><img src="/snapchat.png" alt="" className=' w-4 lg:w-9 ' /></Link>
-    <Link href="/" className=' IBM text-[#1f53ffea]  hover:underline '>Snapchat</Link>
+    <a herf='https://heylink.me/oussama_446'><img src="/snapchat.png" alt="" className=' w-6 lg:w-9 ' /></a>
+    <a herf='https://heylink.me/oussama_446' className=' IBM text-[#1f53ffea]  hover:underline '>Snapchat</a>
 </div>
 
 

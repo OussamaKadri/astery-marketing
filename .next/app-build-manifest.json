@@ -11,15 +11,15 @@
       "static/css/css-src_app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_googl-c4763a.css",
       "static/chunks/app/layout.js"
     ],
+    "/Lead_Magnet/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Lead_Magnet/page.js"
+    ],
     "/How/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/How/page.js"
-    ],
-    "/Case_studies01/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/Case_studies01/page.js"
     ]
   }
 }

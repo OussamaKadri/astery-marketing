@@ -5,12 +5,12 @@ import CTA from '../components/CTA'
 
 function How() {
   return (
-    <div className=' w-[100vw] flex flex-col items-center h-[200vh]  bg-slate-200 overflow-x-hidden '>
+    <div className=' w-[100vw] flex flex-col items-center h-[200vh]  bg-slate-200 overflow-x-hidden  '>
    {/*  How we Can work  */}
    
 <img src="/Astra.png" alt="" className=' h-12 ' />
   
-<motion.h1 className='text-slate-900 red text-[40px] mt-10 '  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.65}}> How we Can Start Work ?</motion.h1>
+<motion.h1 className='text-slate-900 red text-[40px] mt-10  text-center'  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.65}}> How we Can Start Work ?</motion.h1>
 <motion.p className=' text-slate-900 red lg:w-[60%] w-[80%]  text-center pt-4 ' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 1}} > First, I want to thank you for choosing us and be sure that we are the best company that can help you achieve your sales goals  </motion.p>
 
 
@@ -37,12 +37,12 @@ function How() {
 
 
 {/*  Cta section  */}
-<motion.h1 className='red text-slate-900 mt-20 ' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.3 }} > You Can also Contact with me in my Social Media Accounts </motion.h1>
+<motion.h1 className='red text-slate-900 mt-20 text-center ' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.3 }} > You Can also Contact with me in my Social Media Accounts </motion.h1>
 <div className=' w-full flex justify-around  mt-10 '>
-<a href=""><motion.img src="/twitter.png" alt="" className=' lg:w-10 w-4'  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.5 }} /></a>
-<a href=""><motion.img src="/snapchat.png" alt="" className=' lg:w-10 w-4' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.7 }}  /></a>
-<a href=""><motion.img src="/whatsapp.png" alt="" className=' lg:w-10 w-4'  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.9 }} /></a>
-<a href=""><motion.img src="/instagram.png" alt="" className=' lg:w-10 w-4' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 1.1 }}  /></a>
+<a href="https://heylink.me/oussama_446"><motion.img src="/twitter.png" alt="" className=' w-10 '  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.5 }} /></a>
+<a href="https://heylink.me/oussama_446"><motion.img src="/snapchat.png" alt="" className=' w-10 ' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.7 }}  /></a>
+<a href="https://heylink.me/oussama_446"><motion.img src="/whatsapp.png" alt="" className=' w-10 '  initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 0.9 }} /></a>
+<a href="https://heylink.me/oussama_446"><motion.img src="/instagram.png" alt="" className=' w-10 ' initial={{ opacity:0 , y:100 }} whileInView={{opacity:1 , y:0}} transition={{ duration: 1.1 }}  /></a>
 
 </div>
 

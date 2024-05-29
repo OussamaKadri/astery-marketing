@@ -9,7 +9,7 @@ function Page02() {
     <section className=' w-full h-full  flex flex-col items-center gap-8 bg-slate-200 ' id='Services'>
       <Vite/> 
       <motion.div className=' w-[58%] text-center font-bold  ' initial={{y:100 , opacity:0}} whileInView={{opacity:1 , y:0}} transition={{duration:0.7}}>
-      <h1 className=' red text-[41px] text-slate-800 '>
+      <h1 className=' red lg:text-[41px] text-slate-800 text-[25px] '>
       Our experts create personalized marketing strategies for you
       </h1>
       <p className='  text-[#33363C] font-light '>
