@@ -40,7 +40,7 @@ return () => {
   {/*  writer and ketba */}
 <h3 className=" text-[#1F53FF] font-light tracking-wider mb-5 g ">
 Perfect results</h3>
-<motion.h1 className=" text-slate-100 text-[40px] font-extrabold lg:w-[60%]  mb-5 Bur" whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.33}}>Your perfect partner to make your brand best and stand out </motion.h1>
+<motion.h1 className=" text-slate-100 text-[25px] lg:text-[40px]  font-extrabold lg:w-[60%]  lg:mb-5 Bur" whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.33}}>Your perfect partner to make your brand best and stand out </motion.h1>
 <motion.p className=" text-slate-200 lg:text-slate-500   mb-5 red " whileInView={{opacity:1 , y:0}} initial={{opacity:0 , y:25}} transition={{duration:0.53}}>We are experts in the Digital Marketing  and increasing sales by creating customized and effective marketing strategies.</motion.p>
 <div>
 
@@ -106,7 +106,7 @@ Perfect results</h3>
 
 {/* the vidio sections */}
 < section className=' w-full h-[50vh] bg-[#33363C] lg:h-full lg:w-[40%] md:h-full md:w-[40%] flex flex-col items-center justify-center  '>
-  <img src="/Astra02.png" alt="logo" className=' mt-10' />
+  <img src="/Astra.png" alt="logo" className=' mt-10' />
   < Link href="/How" className=' mt-8 bg-[#4b73f8] text-white lg:px-6 px-3  py-2 hover:bg-[#1f53ffc5] hover:text-slate-300 rounded-lg Bur '> Up To 11 </Link>
 
 </section>
