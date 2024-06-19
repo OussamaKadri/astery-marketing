@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "02fc661f6d3e4602"; }
+/******/ 		__webpack_require__.h = function() { return "1141fed0ffb3c34a"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -842,7 +842,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(/^(app(\-pages\-internals|\/layout|\/page)|main\-app)$/.test(chunkId)) {
+/******/ 						if(/^(app(\/((|Case_studies01\/|Lead_Magnet\/)page|layout)|\-pages\-internals)|main\-app)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);

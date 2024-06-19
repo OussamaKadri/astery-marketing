@@ -87,7 +87,7 @@ Perfect results</h3>
 
   {/*  the buttone */}
   <div className=' w-full pt-6 flex justify-center lg:hidden '>
-    <button className=' px-3 py-2 bg-[#1f53ffbf] IBM  hover:bg-[#1f53ffc7] rounded-lg '>
+    <button className=' px-3 py-2 bg-[#1f53ffbf] red  hover:bg-[#1f53ffc7] rounded-lg '>
       <Link href="/Lead_Magnet"> Get your first free consultation
    </Link>
    

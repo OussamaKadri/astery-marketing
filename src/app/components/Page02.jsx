@@ -9,11 +9,11 @@ function Page02() {
     <section className=' w-full h-full  flex flex-col items-center gap-8 bg-slate-200 ' id='Services'>
       <Vite/> 
       <motion.div className=' w-[58%] text-center font-bold  ' initial={{y:100 , opacity:0}} whileInView={{opacity:1 , y:0}} transition={{duration:0.7}}>
-      <h1 className=' red lg:text-[41px] text-slate-800 text-[25px] '>
+      <h1 className=' red  text-slate-800  '>
       Our experts create personalized marketing strategies for you
       </h1>
       <p className='  text-[#33363C] font-light '>
-      Our experts create customized marketing strategies for you and apply them to ensure increased sales and maximum profits using several means
+      Our experts create customized marketing strategies for you and apply them to ensure increased sales and maximum profits using several means 
         </p>
       </motion.div>
       <hr />
